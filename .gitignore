@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local outputs and model weights
+outputs/
+evaluation_results/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
